@@ -13,3 +13,16 @@ Designed and developed a microservice-based quiz application utilizing Java Spri
     Quiz Service:
         Developed endpoints for creating quizzes with customizable parameters such as category, number of questions, and title.
         Implemented logic to calculate quiz results based on user responses, providing real-time feedback to users.
+
+
+gateway http://localhost:8000
+
+
+endpoint of question service 
+http://localhost:8000/question-service/question
+
+
+
+endpoint of quiz service 
+http://localhost:8000/quiz-service/quiz
+
